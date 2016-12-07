@@ -3,14 +3,19 @@ body {
 	}
 
 h1 {
-	color: red;
+	color: blue;
+	font-family: "Lucida Console";
 	}
 	
 p {
 	color: blue;
+	font-family: "Lucida Console"
 	}
 	
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:red; background-color:transparent; text-decoration:none}
 a:hover   {color:green; background-color:transparent; text-decoration:none}
 a:active  {color:blue; background-color:transparent; text-decoration:none}
+
+
+
