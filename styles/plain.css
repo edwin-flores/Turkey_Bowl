@@ -1,17 +1,32 @@
 body {
-	background-color: pearlwhite;
+	color: green;
+	background-color: #191919;
 	}
 
 h1 {
-	color: blue;
+	color: skyblue;
 	font-family: "Lucida Console";
 	}
+h2 {
+	color: skyblue;
+	font-famil
+}
 	
 p {
-	color: blue;
+	color: green;
 	font-family: "Lucida Console"
 	}
+.roster {
 	
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 15px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 15px; /* Firefox */
+    column-gap: 15px;
+    
+}
 a:link    {color:blue; background-color:transparent; text-decoration:none}
 a:visited {color:red; background-color:transparent; text-decoration:none}
 a:hover   {color:green; background-color:transparent; text-decoration:none}
